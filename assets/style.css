@@ -1,0 +1,65 @@
+/*Variables*/
+:root{
+    --color1: #2C3333;
+    --color2: #247881;
+    --color3: #DFDFDE;
+    --font1: 'Montserrat', sans-serif;
+}
+/*Main styles*/
+body{
+    color: var(-color1);
+    font-family: var(--font1);
+}
+.text-center{
+    text-align: center;
+}
+
+
+
+.calculadora{
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 17px;
+    border: 1px solid var(--color2);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+.calculadora .imgCalculadora{
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+.calculadora .inputInfo{
+    width: 80%;
+    padding: 20px;
+    border: 1px solid var(--color3);
+    border-radius: 5px;
+    font-family: var(--font1);
+    font-weight: bold;
+}
+.mainButtons{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.calculadora .col-3 .butttons{
+    width: 100px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;  
+    font-size: 1.2em;
+    font-family: var(--font1);
+}
+.calculadora .col-3 .butttons:hover{
+    background-color: var(--color2);
+    color: white;
+}
+
+
+
